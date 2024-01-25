@@ -4,7 +4,7 @@ body{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-color: cadetblue;
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
     flex-direction: column;
 }
 .login-left, h1{
-    color: rgb(121, 0, 190);
+    color: rgb(255, 255, 255);
 }
 .login-right{
     width: 50vw;
@@ -34,12 +34,12 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: rgb(49, 17, 80);
+    background-color: #ffc013;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px rgb(18, 0, 34);
+    box-shadow: 0px 10px 40px #ffc013;
 }
 .login-card, h1{
-    color: aquamarine;
+    color: rgb(94, 94, 94);
     font-weight: 800;
     margin: 0;
 }
@@ -55,19 +55,19 @@ body{
     border: none;
     border-radius: 10px;
     padding:15px;
-    background: rgb(32, 0, 51);
+    background: #ffc013;
     color: white;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px rgb(18, 0, 34);
+    box-shadow: 0px 10px 40px rgb(39, 39, 39);
     outline: none;
     box-sizing: border-box;
 }
 .textfield, label{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 .textfield, input::placeholder{
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 .btn-login{
     width: 100%;
@@ -79,8 +79,16 @@ body{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: blueviolet;
-    background: #00ff88;
+    color: rgb(255, 255, 255);
+    background: #4d4d4d;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -17px #00ff0052;
+    box-shadow: 0px 10px 40px -17px #ff000052;
+}
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .login-left, h1{
+        display: none;
+    }
 }
