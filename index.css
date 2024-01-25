@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+body *{
+    box-sizing: border-box;
+}
 .main-login{
     width: 100vw;
     height: 100vh;
@@ -17,8 +20,13 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.login-left, h1{
+.login-left > h1{
+    font-size: 3vw;
     color: #FFC100 ;
+}
+.left-login-img{
+    width: 35vw;
+
 }
 .login-right{
     width: 50vw;
@@ -38,7 +46,7 @@ body{
     border-radius: 20px;
     box-shadow: 0px 10px 40px #FFC100;
 }
-.login-card, h1{
+.login-card > h1{
     color: #FFC100;
     font-weight: 800;
     margin: 0;
@@ -50,7 +58,7 @@ body{
     justify-content: center;
     margin: 10px 0px;
 }
-.textfield, input{
+.textfield > input{
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -62,7 +70,7 @@ body{
     outline: none;
     box-sizing: border-box;
 }
-.textfield, label{
+.textfield > label{
     color: #FFC100 ;
     margin-bottom: 10px;
 }
@@ -83,12 +91,32 @@ body{
     background: #FFC100;
     cursor: pointer;
     box-shadow: 0px 10px 40px -15px #FFC100 ;
+
+}
+@media only screen and (max-width: 950px){
+    .login-card{
+        width: 85%;
+    }
 }
 @media only screen and (max-width: 600px){
     .main-login{
         flex-direction: column;
     }
-    .login-left, h1{
+    .login-left > h1{
         display: none;
+    }
+    .login-left{
+        width: 100%;
+        height: auto;
+    }
+    .login-right{
+        width: 100%;
+        height: auto;
+    }
+    .left-login-img{
+        width: 50vw;
+    }
+    .login-card{
+        width: 90%;
     }
 }
