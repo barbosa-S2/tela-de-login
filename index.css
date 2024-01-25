@@ -9,3 +9,24 @@ body{
     justify-content: center;
     align-items: center;
 }
+.login-left{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-left, h1{
+    color: rgb(121, 0, 190);
+}
+.login-right{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card{
+    width: 60%;
+}
