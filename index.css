@@ -4,7 +4,7 @@ body{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: rgb(255, 255, 255);
+    background: #404040;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
     flex-direction: column;
 }
 .login-left, h1{
-    color: rgb(255, 255, 255);
+    color: #FFC100 ;
 }
 .login-right{
     width: 50vw;
@@ -34,12 +34,12 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: #ffc013;
+    background-color: #404040 ;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #ffc013;
+    box-shadow: 0px 10px 40px #FFC100;
 }
 .login-card, h1{
-    color: rgb(94, 94, 94);
+    color: #FFC100;
     font-weight: 800;
     margin: 0;
 }
@@ -55,19 +55,19 @@ body{
     border: none;
     border-radius: 10px;
     padding:15px;
-    background: #ffc013;
+    background: #404040 ;
     color: white;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px rgb(39, 39, 39);
+    box-shadow: 0px 10px 40px #000000;
     outline: none;
     box-sizing: border-box;
 }
 .textfield, label{
-    color: rgb(255, 255, 255);
+    color: #FFC100 ;
     margin-bottom: 10px;
 }
 .textfield, input::placeholder{
-    color: rgb(255, 255, 255);
+    color: #FFC100 ;
 }
 .btn-login{
     width: 100%;
@@ -79,10 +79,10 @@ body{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: rgb(255, 255, 255);
-    background: #4d4d4d;
+    color: #404040 ;
+    background: #FFC100;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -17px #ff000052;
+    box-shadow: 0px 10px 40px -15px #FFC100 ;
 }
 @media only screen and (max-width: 600px){
     .main-login{
