@@ -29,4 +29,58 @@ body{
 }
 .login-card{
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(49, 17, 80);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(18, 0, 34);
+}
+.login-card, h1{
+    color: aquamarine;
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield, input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding:15px;
+    background: rgb(32, 0, 51);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgb(18, 0, 34);
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield, label{
+    color: white;
+    margin-bottom: 10px;
+}
+.textfield, input::placeholder{
+    color: azure;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: blueviolet;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -17px #00ff0052;
 }
